@@ -24,7 +24,7 @@ if (aTitle.contentEquals(a))
 	driver.findElement(By.id("password")).sendKeys("Test@123");
 	driver.findElement(By.cssSelector(".btn.btn-login")).click();
 	Thread.sleep(3000);
-System.out.println("Test Passed.");	
+System.out.println("Test Passed...");	
 }
 
 }
