@@ -10,7 +10,7 @@ public class jira2
 	@Test
 	public  void zephyrtestingtwo() throws InterruptedException
 	{
-	System.out.println(" Executing SAF url");
+	System.out.println(" Executing SAF urls");
 	System.setProperty("webdriver.chrome.driver","F:\\selenium-files\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
 driver.get("https://google.com");
