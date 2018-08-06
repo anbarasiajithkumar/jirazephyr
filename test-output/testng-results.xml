@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36675" started-at="2018-08-04T19:04:35Z" finished-at="2018-08-04T19:05:11Z">
+  <suite name="Default suite" duration-ms="13514" started-at="2018-08-06T06:30:23Z" finished-at="2018-08-06T06:30:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36675" started-at="2018-08-04T19:04:35Z" finished-at="2018-08-04T19:05:11Z">
+    <test name="Default test" duration-ms="13514" started-at="2018-08-06T06:30:23Z" finished-at="2018-08-06T06:30:37Z">
       <class name="jirazephyrpaxk.jira2">
-        <test-method status="PASS" signature="zephyrtestingtwo()[pri:0, instance:jirazephyrpaxk.jira2@3532ec19]" name="zephyrtestingtwo" duration-ms="36649" started-at="2018-08-05T00:34:35Z" finished-at="2018-08-05T00:35:11Z">
+        <test-method status="PASS" signature="zephyrtestingtwo()[pri:0, instance:jirazephyrpaxk.jira2@3532ec19]" name="zephyrtestingtwo" duration-ms="13484" started-at="2018-08-06T12:00:23Z" finished-at="2018-08-06T12:00:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- zephyrtestingtwo -->

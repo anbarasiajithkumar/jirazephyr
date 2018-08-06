@@ -1,5 +1,6 @@
 package jirazephyrpaxk;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
@@ -7,19 +8,17 @@ import org.testng.annotations.Test;
 public class jira2
 {
 	@Test
-	public  void zephyrtestingtwo()
+	public  void zephyrtestingtwo() throws InterruptedException
 	{
-	System.out.println(" Welcome to my world");
+	System.out.println(" Executing SAF url");
 	System.setProperty("webdriver.chrome.driver","F:\\selenium-files\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
-driver.get("http://teammigrate:18080/#/user/loginn");
+driver.get("http://teammigrate:18080/#/user/login");
 driver.manage().window().maximize();
-String a=driver.getTitle();
-String aTitle ="testing1";
-
-if (aTitle.contentEquals(a))
-{
-System.out.println("Test failed");
-}
+driver.findElement(By.id("userName")).sendKeys("hprasad");
+driver.findElement(By.id("password")).sendKeys("Test@123");
+driver.findElement(By.cssSelector(".btn.btn-login")).click();
+Thread.sleep(3000);
+driver.close();
 }
 }

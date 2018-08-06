@@ -1,5 +1,7 @@
 package jirazephyrpaxk;
+import org.testng.Assert;
 import org.testng.annotations.Test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,22 +11,12 @@ public class jira {
 @Test
 public void zephyrtesting() throws InterruptedException
 	{
-		System.out.println(" Welcome to my world...");
+		System.out.println(" Testcase Executing...");
 		System.setProperty("webdriver.chrome.driver","F:\\selenium-files\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
-driver.get("https://google.co.in");
-driver.manage().window().maximize();
-//String aTitle ="eDriver Client Application";
-//String a=driver.getTitle();
-//if (aTitle.contentEquals(a))
-//{
-//	System.out.println("Test failed");
-//}
-//	driver.findElement(By.id("userName")).sendKeys("hprasad");
-//	driver.findElement(By.id("password")).sendKeys("Test@123");
-//	driver.findElement(By.cssSelector(".btn.btn-login")).click();
-//	Thread.sleep(3000);
-System.out.println("Test Passed after adding zephyr cloud credentials ");	
-}
+		WebDriver driver = new ChromeDriver();			
+	driver.navigate().to("http://google.com");
+	Assert.assertEquals("Testing", driver.getTitle());
+	driver.close();
+	}
 
 }
