@@ -13,12 +13,12 @@ public class jira2
 	System.out.println(" Executing SAF url");
 	System.setProperty("webdriver.chrome.driver","F:\\selenium-files\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
-driver.get("http://teammigrate:18080/#/user/login");
+driver.get("https://google.com");
 driver.manage().window().maximize();
-driver.findElement(By.id("userName")).sendKeys("hprasad");
-driver.findElement(By.id("password")).sendKeys("Test@123");
-driver.findElement(By.cssSelector(".btn.btn-login")).click();
-Thread.sleep(3000);
-driver.close();
+//driver.findElement(By.id("userName")).sendKeys("hprasad");
+//driver.findElement(By.id("password")).sendKeys("Test@123");
+//driver.findElement(By.cssSelector(".btn.btn-login")).click();
+//Thread.sleep(3000);
+//driver.close();
 }
 }
