@@ -15,7 +15,7 @@ public void zephyrtesting() throws InterruptedException
 		System.setProperty("webdriver.chrome.driver","F:\\selenium-files\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();			
 	driver.navigate().to("https://google.com");
-	Assert.assertEquals("Testing", driver.getTitle());
+	Assert.assertEquals("Google", driver.getTitle());
 	driver.close();
 	}
 
