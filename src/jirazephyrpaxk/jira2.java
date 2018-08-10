@@ -24,7 +24,7 @@ assertEquals(actualTitle, expectedTitle);
 driver.findElement(By.id("userName")).sendKeys("hprasad");
 driver.findElement(By.id("password")).sendKeys("Test@123");
 driver.findElement(By.cssSelector(".btn.btn-login")).click();
-Thread.sleep(2000);
+Thread.sleep(3000);
 driver.close();
 }
 }

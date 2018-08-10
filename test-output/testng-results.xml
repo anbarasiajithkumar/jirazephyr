@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7839" started-at="2018-08-10T06:41:17Z" finished-at="2018-08-10T06:41:24Z">
+  <suite name="Default suite" duration-ms="7971" started-at="2018-08-10T07:18:01Z" finished-at="2018-08-10T07:18:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7839" started-at="2018-08-10T06:41:17Z" finished-at="2018-08-10T06:41:24Z">
+    <test name="Default test" duration-ms="7971" started-at="2018-08-10T07:18:01Z" finished-at="2018-08-10T07:18:09Z">
       <class name="jirazephyrpaxk.jira2">
-        <test-method status="FAIL" signature="zephyrtestingtwo()[pri:0, instance:jirazephyrpaxk.jira2@3532ec19]" name="zephyrtestingtwo" duration-ms="7807" started-at="2018-08-10T12:11:17Z" finished-at="2018-08-10T12:11:24Z">
+        <test-method status="FAIL" signature="zephyrtestingtwo()[pri:0, instance:jirazephyrpaxk.jira2@3532ec19]" name="zephyrtestingtwo" duration-ms="7940" started-at="2018-08-10T12:48:01Z" finished-at="2018-08-10T12:48:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [My Title] but found [eDriver Client Application]]]>
