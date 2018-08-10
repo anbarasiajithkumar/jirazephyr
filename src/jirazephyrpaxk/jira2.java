@@ -1,5 +1,7 @@
 package jirazephyrpaxk;
 
+import static org.testng.Assert.assertEquals;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -13,12 +15,16 @@ public class jira2
 	System.out.println(" Executing SAF urls");
 	System.setProperty("webdriver.chrome.driver","F:\\selenium-files\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();
-driver.get("https://google.com");
+driver.get("http://teammigrate:18080/#/user/login");
 driver.manage().window().maximize();
-//driver.findElement(By.id("userName")).sendKeys("hprasad");
-//driver.findElement(By.id("password")).sendKeys("Test@123");
-//driver.findElement(By.cssSelector(".btn.btn-login")).click();
-//Thread.sleep(3000);
-//driver.close();
+
+String actualTitle = driver.getTitle();
+String expectedTitle = "My Title";
+assertEquals(actualTitle, expectedTitle);
+driver.findElement(By.id("userName")).sendKeys("hprasad");
+driver.findElement(By.id("password")).sendKeys("Test@123");
+driver.findElement(By.cssSelector(".btn.btn-login")).click();
+Thread.sleep(3000);
+driver.close();
 }
 }
